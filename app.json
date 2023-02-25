@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "done_with_it",
-    "slug": "done_with_it",
+    "name": "tic_tac_toe",
+    "slug": "tic_tac_toe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.praharsha101.tic_tac_toe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55014422-3c5c-4cd7-8b8f-f623a0017145"
+      }
     }
   }
 }
